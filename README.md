@@ -29,7 +29,7 @@ Somewhere in you main();
 ```bash
 mkdir -p $GOPATH/src/github.com/anon767/wsserver
 cp ./test_server.go $GOPATH/src/github.com/anon767/wsserver/wsserver.go
-cd $GOPATH/src/github.com/anon767/
+cd $GOPATH/src/github.com/anon767/wsserver
 go get && go build
 chmod +x wsserver
 openssl req -newkey rsa:2048 -new -nodes -x509 -days 3650 -keyout key.pem -out cert.pem
