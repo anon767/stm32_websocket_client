@@ -5,5 +5,5 @@
   #define SERVER_NAME "192.168.178.27"
  
  RNG_HandleTypeDef RngHandle;
-
+ void SSL_Client();
 #endif
