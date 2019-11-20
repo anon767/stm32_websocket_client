@@ -48,7 +48,7 @@ int main( void )
 #include "mbedtls/base64.h"
 #include "mbedtls/sha1.h"
 #include "ca_cert.h"
-#include "main.h"
+#include "client.h"
 #include "cmsis_os.h"
 #include "stm32f7xx_hal_rng.h"
 #include <string.h>
