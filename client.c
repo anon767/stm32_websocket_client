@@ -94,7 +94,7 @@ void close(){
 	  mbedtls_ctr_drbg_free( &ctr_drbg );
 	  mbedtls_entropy_free( &entropy );
 }
-int init(){
+void init(){
 	  /*
 	   * 0. Initialize the RNG and the session data
 	   */
