@@ -1,5 +1,15 @@
-# stm32_websocket_client
-Websocket Client using mbedtls
+# Websocket Client implementation
+Simple Websocket Client using mbedtls tested on STM32F7
+
+## Features
+- Sending and Receiving encrypted websocket data
+
+## Limitations
+- No continuation frames
+- Not parsing Server Handshake response
+- No other Op Codes than "text"
+- No random Nonce for handshake 
+
 
 ## Prerequisites
 Set up a Project for your STM32 Microcontroller with LWip and mbedTLS 
